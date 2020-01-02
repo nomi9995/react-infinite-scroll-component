@@ -1,6 +1,6 @@
 {
   "name": "react-load-more-pull-to-refresh",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "react load more and pull to refresh",
   "source": "src/index.tsx",
   "main": "dist/index.js",
