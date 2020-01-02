@@ -223,9 +223,9 @@ export default class InfiniteScroll extends Component<Props, State> {
 
     this.dragging = false;
 
-    if (this.state.pullToRefreshThresholdBreached) {
-      this.props.refreshFunction && this.props.refreshFunction();
-    }
+    // if (this.state.pullToRefreshThresholdBreached) {
+    this.props.refreshFunction && this.props.refreshFunction();
+    // }
 
     requestAnimationFrame(() => {
       // this._infScroll
